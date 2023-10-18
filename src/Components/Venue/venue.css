@@ -1,0 +1,44 @@
+.container-grids{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+img{
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.214);
+    left: 2rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .container-grids{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .anits_college{
+        left: auto;
+        right: auto;
+        margin: 0 auto;
+    }
+    
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .container-grids{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .anits_college{
+        width: 20rem;
+    }
+}

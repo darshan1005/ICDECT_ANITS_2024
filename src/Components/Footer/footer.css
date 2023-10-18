@@ -1,0 +1,125 @@
+.footer__container{
+    top: 0;
+    bottom: 0;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.214);
+}
+
+.footer__contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.About__icdect__logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.year{
+    font-size: large;
+    color: rgb(48, 48, 48);
+}
+
+.logo_part{
+    color: blue;
+}
+
+.about__icdect{
+    font-size: small;
+    width: 40%;
+}
+
+.media{
+    padding: 0.55rem;
+    border: 1px solid blue;
+    border-radius: 0.55rem;
+    margin-right: 0.55rem;
+}
+
+.Information{
+    margin: -0.98rem 0 0 0;
+
+}
+
+.Information__title{
+    font-weight: 600;
+    color: black;
+}
+
+.Address__title{
+    font-weight: 600;
+    color: black;
+}
+
+
+.about__icdect:hover,
+.logo_part:hover,
+.year:hover,
+.Information__content:hover,
+.Address__content:hover{
+    color: #000000;
+}
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .footer {
+        background-size: 15rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .footer__contents{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        background-size: 20rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+     .footer__contents {
+        position: absolute;
+        display: contents;
+    }
+
+    .media {
+        padding: 0.25rem;
+    }
+
+        .icdect {
+            margin-bottom: 1rem;
+        }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .footer__contents {
+        position: absolute;
+        display: contents;
+        font-size: var(--small-font-size);
+    }
+    
+
+        .footer__container{
+            margin-top: -1rem;
+            height: 32rem;
+        }
+
+        .media{
+            padding: 0.25rem;
+        }
+
+        .icdect{
+            margin-bottom: 1rem;
+        }
+
+}

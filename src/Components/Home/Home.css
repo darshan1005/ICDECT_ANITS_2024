@@ -1,0 +1,99 @@
+
+.home__content{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: -2rem;
+}
+.sub{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+#home__title{
+    color: rgb(255, 255, 255);
+}
+
+#home__title:hover {
+    transform: scale(1.02);
+}
+.horizontal-line {
+  width: 5%;
+  height: 0;
+  border-bottom: 5px dotted #ffffff5d;
+  margin: 1.2rem auto; /* to center */
+}
+
+
+.home{
+    background-color: rgba(19, 19, 255, 0.853);
+    height: 15rem;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    margin-top: -5.8rem;
+}
+
+.fade-in-text{
+    opacity: 0;
+    transition: .3s ;
+}
+
+.visible{
+    opacity: 1;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .home__content{
+        margin: -1.8rem auto 0 auto ;
+    }
+
+    #home__title{
+        font-size: 1.3rem;
+    }
+
+    .sub {
+        font-size: 1.6rem;
+        font-weight: 900;
+    }
+
+    .horizontal-line{
+        margin: 1rem auto;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .home__content {
+            margin: 4.8rem auto 0 auto;
+        }
+    
+    #home__title {
+        font-size: 1.2rem;
+    }
+
+    .sub {
+        font-size: 1.35rem;
+        font-weight: 900;
+    }
+
+    .horizontal-line {
+        margin: 0.8rem auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home__content {
+            margin: 4.8rem auto 0 auto;
+        }
+
+    .horizontal-line {
+        margin: 0.5rem auto;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .home__content {
+            margin: 4rem auto 0 auto;
+        }
+}

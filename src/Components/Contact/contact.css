@@ -1,0 +1,95 @@
+
+h6 .details__align{
+    justify-content: center;
+    align-items: center;
+}
+
+.details__align:hover{
+    color: black;
+}
+
+i{
+    font-size: var(--h3-font-size);
+}
+
+.conveners_details,
+.co-conveners_details,
+.email__details,
+.location{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.85rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    margin: 0 2rem 0 2rem;
+    padding: 1rem;
+}
+
+.container-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    padding: 4rem 0 0 0;
+    margin: 5rem 0 -1rem 0;
+}
+/* i class color */
+
+.uil:hover{
+    color: blue;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+ .container-grid{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        column-gap: 0.8rem;
+        justify-content: space-between;
+
+    }
+   
+    .conveners_details,
+    .co-conveners_details,
+    .email__details,
+    .location {
+        padding: 1rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .conveners_details,
+    .co-conveners_details,
+    .email__details,
+    .location {
+        padding: 1rem;
+    }
+
+    .details__align{
+        font-size: var(--small-font-size);
+    }
+
+    .container-grid{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        column-gap: 0.8rem;
+    }
+    .contact{
+        margin: 3rem 0 -1rem 0;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .container-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+}
+
+

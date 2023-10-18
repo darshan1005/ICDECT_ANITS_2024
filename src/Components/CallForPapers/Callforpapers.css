@@ -1,0 +1,121 @@
+.callforpapers__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 0.25rem;
+    background-color: rgba(208, 208, 255,0.274);
+    box-shadow: 0 0 12px rgba(143, 143, 143, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: context-menu;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.section__subtitle{
+    font-size: var(--normal-font-size);
+}
+
+.papertopic__list{
+    font-size: var(--normal-font-size);
+}
+
+.papertopic__list:hover{
+    color: var(--title-color-dark);
+    scale: 1.1;
+    transition-delay: 0.5;
+}
+
+/* callforpapers bottom */
+
+.callforpapers__context{
+    margin: 2rem 0 0 2rem;
+    gap: 1rem;
+}
+
+.context__lines{
+    color: rgba(0, 0, 0, 0.634);
+}
+
+.callforpapers__span{
+    color: rgb(42, 42, 42);
+}
+
+.callforpapers__span:hover {
+    color: rgb(0, 0, 0);
+}
+
+#papers{
+    height: 2rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .papertopic__list{
+        width: 100%;
+        font-size: var(--smaller-font-size);
+    }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .callforpapers{
+        margin-bottom: -4rem;
+    }
+    .papertopic__list {
+        width: 100%;
+        font-size: var(--normal-font-size);
+    }
+    .callforpapers__container{
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+        left: auto;
+        right: auto;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .context__lines,
+    .callforpapers__context b, a{
+        font-size: var(--medium-font-size);
+    }
+
+        .section__subtitle{
+            margin-bottom: 1rem;
+            padding: 0 1rem;
+        }
+}
+
+@media screen and (max-width: 576px) {
+    .callforpapers__container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .papertopic__list{
+        text-align: left;
+        color: black;
+        width: 100%;
+        font-size: 0.85rem;
+        margin-left: 0rem;
+    }
+
+    .section__subtitle{
+        font-size: 1rem;
+    }
+
+    .context__lines{
+        width: 100%;
+        
+    }
+
+    .callforpapers__context{
+        justify-self: center;
+        align-items: center;
+        margin-left: 0.25rem;
+    }
+
+}

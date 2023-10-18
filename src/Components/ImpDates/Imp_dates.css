@@ -1,0 +1,91 @@
+#dates{
+    height: 3rem;
+}
+
+.section__title{
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+}
+
+.impdates{
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+    height: 30rem;
+    width: 90%;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(208, 208, 255, 0.274);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.214);
+    background-image: url(../../assests/Calender.png);
+    background-repeat: no-repeat;
+    background-size: 65rem;
+
+}
+
+.impdates .table {
+    width: 80%;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.748);
+    color: rgb(0, 0, 0);
+}
+
+.table th{
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.446);
+    color: rgb(0, 0, 0);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .impdates{
+        width: 80%;
+        background-size: 60rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .impdates .table {
+        margin-top: 6.2rem;
+    }
+
+    .impdates {
+        background-size: 52rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+        .impdates .table {
+            margin-top: 5rem;
+        }
+         .table td {
+             font-size: normal;
+         }
+        .impdates {
+            background-size: 48rem;
+        }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .impdates .table {
+            margin-top: 2rem;
+        }
+        
+     .table td {
+         font-size: small;
+     }
+    .impdates {
+        background-size: 30rem;
+    }
+}
