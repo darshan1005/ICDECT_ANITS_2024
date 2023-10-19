@@ -1,6 +1,5 @@
 # Output
 ![Screenshot (289)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/c00d2fd7-3cbc-4d85-aa0f-58e2cf4d3c5f)
-![Screenshot (288)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/5b638afa-a018-46cd-938b-478f7f9fcc4c)
 
 # Getting Started with Create React App
 
