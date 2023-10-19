@@ -1,3 +1,5 @@
+# Output
+![Screenshot (289)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/a948c60e-e398-4b92-90ab-9543aa96d7fb)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
