@@ -1,8 +1,7 @@
 # Output
-![Scr![Screenshot (282)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/f9166455-46ee-49b5-b6ea-0414e73e63a4)
-![Screenshot 2023-04-03 115132](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/8758d0f7-013c-4bb1-aa6b-01de5a165251)
-![Screenshot (288)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/6cfb4c4f-fb6e-4610-896a-edaf58351f0a)
-eenshot (289)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/a948c60e-e398-4b92-90ab-9543aa96d7fb)
+![Screenshot (289)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/c00d2fd7-3cbc-4d85-aa0f-58e2cf4d3c5f)
+![Screenshot (288)](https://github.com/darshan1005/ICDECT_ANITS_2024/assets/114302987/5b638afa-a018-46cd-938b-478f7f9fcc4c)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
