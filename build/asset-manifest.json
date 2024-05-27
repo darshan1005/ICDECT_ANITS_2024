@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66204440.css",
+    "main.js": "/static/js/main.b00ac3b5.js",
+    "static/media/banner4.jpg": "/static/media/banner4.29d6d83c02d65c83f533.jpg",
+    "static/media/ssp3.jpg": "/static/media/ssp3.45e8a19aaf8dc07cd499.jpg",
+    "static/media/Calender.png": "/static/media/Calender.525e6c7c3fb508e2edf3.png",
+    "static/media/anits.jpg": "/static/media/anits.70de38b4b0e1d0f930f6.jpg",
+    "static/media/icdect2021.jpg": "/static/media/icdect2021.cb2f9491f3ed8b9482be.jpg",
+    "static/media/spring.png": "/static/media/spring.e1b488101cfd0da06d74.png",
+    "index.html": "/index.html",
+    "main.66204440.css.map": "/static/css/main.66204440.css.map",
+    "main.b00ac3b5.js.map": "/static/js/main.b00ac3b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66204440.css",
+    "static/js/main.b00ac3b5.js"
+  ]
+}
