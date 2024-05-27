@@ -29,15 +29,11 @@ html{
     z-index: 999;
     background-color: rgb(37, 99, 255);
     height: 5.75rem;
-    overflow:auto;
-
+    overflow-x:auto;
+    overflow-y: hidden;
+    font-size: small;
 }
 
-#navbarScroll{
-    background-color: rgb(37, 99, 255);
-    width: 100%;
-    height: auto;
-}
 .nav__link{
     color: white;
     position: relative;
@@ -47,6 +43,7 @@ html{
     top: 0;
     bottom: 0;
     transition: .3s ease-in-out;
+    width: max-content;
 }
 
 .nav__link:hover {

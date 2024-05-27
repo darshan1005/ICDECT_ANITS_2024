@@ -27,7 +27,7 @@ function Message() {
 
             <div class="marquee-container" id="message">
                 <h2 class="marquee-title">Latest News</h2>
-                <marquee className="message-text marquee" behavior="loop" scrollamount="20%" width="80%">
+                <marquee className="message-text marquee" behavior="loop" scrollamount="10%" width="80%">
                     Key notes address by "Name", "profession", "Education", "university" &nbsp;&nbsp;
                     ||&nbsp;&nbsp; Deadline for paper Submission is "update" to "Date" &nbsp;&nbsp;||
                     &nbsp;&nbsp; ICDECT Conference (2021) is schdules to be held on "Date" &nbsp;&nbsp;||&nbsp;&nbsp;
