@@ -257,4 +257,9 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
 }
