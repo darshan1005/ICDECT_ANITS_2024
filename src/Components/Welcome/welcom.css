@@ -6,6 +6,7 @@
     right: auto;
     margin: 0 auto;
 }
+
 .register-note{
     display: flex;
     flex-direction: row;
@@ -14,7 +15,7 @@
     justify-content: space-evenly;
 }
 
-h4 {
+p {
     color: white;
 }
 
@@ -32,7 +33,7 @@ h4 {
 }
 
 @media screen and (max-width: 350px) {
-    h4{
+    p{
         font-size: var(--medium-font-size);
     }
 
@@ -43,55 +44,3 @@ h4 {
         padding: 5px;
     }
 }
-
-/* .register-note{
-    display: flex;
-    flex-direction: row;
-    gap: 0.85rem;
-    align-items: center;
-    justify-content: space-around;
-    margin: 2rem;
-}
-
-.container_note{
-    background-color: blue;
-    width: auto;
-    height: 7rem;
-    left: auto;
-    right: auto;
-    margin: 0 auto;
-}
-
-h4{
-    color: white;
-}
-
-.register_bnt{
-    padding: 0.96em 1.25rem 0.96rem 1.25rem;
-    border-radius: 0.65rem;
-    background-color: white;
-    color: blue;
-    transition: .3s;
-}
-
-.register_bnt:hover{
-    color: white;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(236, 239, 255);
-    text-decoration: none;
-}
-
-@media screen and (max-width: 350px) {
-    .register-note{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        flex-flow: column;
-    }
-    h4{
-        font-size: small;
-    }
-    .register_bnt{
-
-    }
-} */

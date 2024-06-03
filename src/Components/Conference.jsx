@@ -13,10 +13,10 @@ function Conference() {
         <section className='section conference'>
         <Hero />
         <div className='section'>
-            <h2 data-aos='fade-up' data-aos-duration="1500" className='section__title'>
+            <h2 data-aos='fade-up' data-aos-once='true' data-aos-duration="1500" className='section__title'>
                 About Conference
             </h2>
-            <div data-aos='fade-up' data-aos-duration="1500" className='conference__content container'>
+            <div data-aos='fade-up' data-aos-once='true' data-aos-duration="1500" className='conference__content container'>
                     <p>The objective of this Scopus indexed International Conference on Data 
                     Engineering and Communication Technology (ICDECT) 2024 is to present a 
                     unified platform for advanced and multi-disciplinary research towards 
@@ -47,7 +47,7 @@ function Conference() {
                     It features advanced, multidisciplinary research towards the design of smart computing, 
                     information systems, and electronic systems. It also focuses on various innovation 
                     paradigms in system knowledge</p>
-                    <p  data-aos='fade-up' data-aos-duration="1500" download='' className='broucher'><a href='referencepapers.com'>Click here&nbsp;</a><b>to Download Conference Brochure</b></p>
+                    <p  data-aos='fade-up' data-aos-once='true' data-aos-duration="1500" download='' className='broucher'><a href='referencepapers.com'>Click here&nbsp;</a><b>to Download Conference Brochure</b></p>
 
             </div>
         </div>

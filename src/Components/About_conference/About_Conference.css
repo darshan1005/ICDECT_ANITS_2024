@@ -69,6 +69,10 @@ p {
     background-color: #add4ff;
 }
 
+.content__paragraph{
+    color: black;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

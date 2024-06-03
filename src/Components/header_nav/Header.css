@@ -30,12 +30,20 @@ html {
 
 .nav__logo-part {
     color: white;
-    font-size: 15px;
+    font-size: 21px;
 }
 
 .nav__head {
     display: flex;
     align-items: center;
+}
+
+#navbarScroll{
+    overflow-x: auto;
+}
+
+#navbarScroll::-webkit-scrollbar{
+    display: none;
 }
 
 .nav__link {
@@ -44,6 +52,7 @@ html {
     font-size: 1rem;
     transition: color 0.3s;
     text-decoration: none;
+    width: max-content;
 }
 
 .navToggle {
@@ -55,6 +64,24 @@ html {
     .header_img {
         height: 10rem;
     }
+
+    .nav__logo,
+    .nav__logo-part {
+        font-size: 1rem;
+    }
+
+    .nav__link {
+        margin-left: 1rem;
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .nav__align{
+        margin-left: 1rem;
+        font-size: 1rem;
+        margin-bottom: .9rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -64,6 +91,23 @@ html {
 
     .nav-bar {
         padding: 0.5rem 0;
+    }
+
+    .nav__logo,
+    .nav__logo-part {
+        font-size: 1rem;
+    }
+
+    .nav__link {
+        margin-left: 1rem;
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .nav__align{
+        margin-left: 1rem;
+        font-size: 1rem;
+        margin-bottom: .9rem;
     }
 
     .nav__logo,
@@ -89,6 +133,13 @@ html {
     .nav__link {
         margin-left: 1rem;
         font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .nav__align{
+        margin-left: 1rem;
+        font-size: 1rem;
+        margin-bottom: .9rem;
     }
 
     .navToggle {
@@ -105,14 +156,19 @@ html {
         padding: 0.5rem 0;
     }
 
+    .nav__head{
+        display: flex;
+    }
+
     .nav__logo,
     .nav__logo-part {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
     }
 
     .nav__link {
         margin-left: 0.5rem;
-        font-size: 0.75rem;
+        font-size: 1rem;
+        width: 90%;
     }
 
     .navToggle {

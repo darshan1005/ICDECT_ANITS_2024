@@ -10,7 +10,7 @@
  }
 .demoimage{
     min-width: 40%;
-    width: 40%;
+    width: 30%;
     height: auto;
     aspect-ratio: 1/1;
     object-fit: contain;
@@ -22,6 +22,8 @@
 .detail{
     font-size: var(--small-font-size);
     margin-left: 1rem;
+    color: black;
+    width: max-content;
 }
 
 #team{
@@ -30,9 +32,9 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     .accordion {
-        width: 55%;
+        width: 60%;
     }
 
     .person-details {
@@ -42,76 +44,75 @@
     }
 
     .demoimage{
-        min-width: 50%;
-        width: 100%;
-        height: 100%;
+        width: 10%;
+    }
+
+    .detail{
+        width: max-content;
     }
 }
 
 /* For medium devices */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .accordion {
          width: 70%;
     }
 
     .person-details{
         gap: 2rem;
-    }
-
-    .demoimage{
-        max-width: 200%;
-        width: 200%;
-        height: auto;
+        display: flex;
     }
 }
 
 @media screen and (max-width: 576px) {
     .accordion {
-            margin-top: -3rem;
-            column-gap: 0.85rem;
-        }
+        margin-top: -3rem;
+        column-gap: 0.85rem;
+     }
     
-        .header {
-            position: relative;
-            width: 30.25rem;
-            margin-left: 2.35rem;
-            margin-top: -1rem;
-        }
-    
-        .demoimage {
-            max-width: 100%;
-            width: 50%;
-            height: auto;
-            margin-left: 0rem;
-            margin-bottom: -2rem;
-            margin-top: -1.5rem;
-        }
-    
-        .person-details {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin-top: 3rem;
-            margin-left: 0rem;
-        }
-    
-        .details {
-            margin-top: .8rem;
-        }
+    .header{
+        width: 100%;
+        background: gray;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .demoimage {
+        max-width: 100%;
+        width: 50%;
+        height: auto;
+        margin-left: 0rem;
+        margin-bottom: -2rem;
+        margin-top: -1.5rem;
+    }
+
+    .person-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+
+    .details {
+        margin-top: .8rem;
+    }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
     .accordion{
-        margin-top: -3rem;
-        column-gap: 0.85rem;
-        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
     }
+
     .header{
-        position: relative;
         width: 100%;
-        margin-left: 2.45rem;
-        margin-top: -1rem;
+        background: gray;
+        display: flex;
+        margin: 0 auto;
     }
 
     .demoimage {

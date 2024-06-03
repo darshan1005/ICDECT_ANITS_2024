@@ -36,7 +36,7 @@ i{
     padding: 4rem 0 0 0;
     margin: 5rem 0 -1rem 0;
 }
-/* i class color */
+/* i className color */
 
 .uil:hover{
     color: blue;
@@ -44,7 +44,7 @@ i{
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
  .container-grid{
         display: grid;
         grid-template-columns: repeat(2,2fr);
@@ -81,6 +81,14 @@ i{
     }
     .contact{
         margin: 3rem 0 -1rem 0;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .container-grid{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        column-gap: 0.8rem;
     }
 }
 

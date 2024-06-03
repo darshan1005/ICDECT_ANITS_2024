@@ -61,7 +61,7 @@ function Registration() {
                         </tbody>
                     </Table>
                 </div>
-                <div data-aos='fade-up' data-aos-duration="1000" className='table__subtitle'>**Corresponding author should be same for both papers.</div>
+                <div data-aos='fade-up' data-aos-once='true' data-aos-duration="1000" className='table__subtitle'>**Corresponding author should be same for both papers.</div>
                 <div className='col-md-8 table__second'>
                     <Table striped bordered hover size="sm" data-aos='fade-up' data-aos-duration="1000">
                         <thead>
@@ -86,9 +86,9 @@ function Registration() {
                     </Table>
                 </div>
                 <div className='links'>
-                    <div data-aos='fade-up' data-aos-duration="1000" className='link'><a href='#'>Click here&nbsp;</a><b>to view Springer Paper Template</b></div>
-                    <div data-aos='fade-up' data-aos-duration="1000" download='' className='link'><a href='#'>Click here&nbsp;</a><b> to download Registration form</b></div>
-                    <div data-aos='fade-up' data-aos-duration="1000" download='' className='link'><a href='#'>Click here&nbsp;</a><b>to download Copy right form</b></div>
+                    <div data-aos='fade-up' data-aos-once='true' data-aos-duration="1000" className='link'><a href='#'>Click here&nbsp;</a><b>to view Springer Paper Template</b></div>
+                    <div data-aos='fade-up' data-aos-once='true' data-aos-duration="1000" download='' className='link'><a href='#'>Click here&nbsp;</a><b> to download Registration form</b></div>
+                    <div data-aos='fade-up' data-aos-once='true' data-aos-duration="1000" download='' className='link'><a href='#'>Click here&nbsp;</a><b>to download Copy right form</b></div>
                 </div>
             </div>
             

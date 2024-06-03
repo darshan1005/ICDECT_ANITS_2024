@@ -1,13 +1,18 @@
 
 .home__content{
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-content: center;
+    justify-content: center;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -3rem;
 }
 .sub{
-    font-size: 2.5rem;
-    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    margin: 0 auto;
 }
 #home__title{
     color: rgb(255, 255, 255);
@@ -16,13 +21,13 @@
 #home__title:hover {
     transform: scale(1.02);
 }
+
 .horizontal-line {
   width: 5%;
   height: 0;
   border-bottom: 5px dotted #ffffff5d;
-  margin: 1.2rem auto; /* to center */
+  margin: 1.2rem auto; 
 }
-
 
 .home{
     background-color: rgba(19, 19, 255, 0.853);
@@ -53,7 +58,7 @@
 
     .sub {
         font-size: 1.6rem;
-        font-weight: 900;
+        font-weight: 500;
     }
 
     .horizontal-line{
@@ -64,7 +69,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .home__content {
-            margin: 4.8rem auto 0 auto;
+            margin: 5rem auto 0 auto;
         }
     
     #home__title {
@@ -72,8 +77,8 @@
     }
 
     .sub {
-        font-size: 1.35rem;
-        font-weight: 900;
+        font-size: 1.3rem;
+        font-weight: 600;
     }
 
     .horizontal-line {
@@ -88,6 +93,12 @@
 
     .horizontal-line {
         margin: 0.5rem auto;
+    }
+
+    .sub {
+        font-size: 1.3rem;
+        font-weight: 600;
+        max-width: 90%;
     }
 }
 
