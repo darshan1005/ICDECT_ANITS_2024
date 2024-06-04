@@ -33,6 +33,7 @@
 .about__icdect{
     font-size: small;
     width: 40%;
+    color: black;
 }
 
 .media{
@@ -56,7 +57,6 @@
     font-weight: 600;
     color: black;
 }
-
 
 .about__icdect:hover,
 .logo_part:hover,
@@ -95,9 +95,9 @@
         padding: 0.25rem;
     }
 
-        .icdect {
-            margin-bottom: 1rem;
-        }
+    .icdect {
+        margin-bottom: 1rem;
+    }
 }
 
 /* For small devices */
@@ -107,19 +107,16 @@
         display: contents;
         font-size: var(--small-font-size);
     }
-    
 
-        .footer__container{
-            margin-top: -1rem;
-            height: 32rem;
-        }
-
-        .media{
-            padding: 0.25rem;
-        }
-
-        .icdect{
-            margin-bottom: 1rem;
-        }
+    .footer__container{
+        margin-top: -1rem;
+        height: 32rem;
+    }
+    .media{
+        padding: 0.25rem;
+    }
+    .icdect{
+        margin-bottom: 1rem;
+    }
 
 }

@@ -125,9 +125,12 @@ html {
         padding: 0.5rem 0;
     }
 
-    .nav__logo,
-    .nav__logo-part {
+    .nav__logo {
         font-size: 1rem;
+    }
+
+    .nav__logo-part{
+        font-size: 20px;
     }
 
     .nav__link {

@@ -10,7 +10,7 @@ function footer() {
                         <div className='About__icdect__logo'>IC
                         <span className='About__icdect__logo logo_part'>DECT</span>
                         <span className='year'>2024</span></div>
-                        <p className='about__icdect'>Papers can be uploaded throught the webiste using the <span className='logo_part'href="#">ICDECT2024</span> links</p>
+                        <p className='about__icdect'>Papers can be uploaded throught the webiste using the <span className='logo_part'>ICDECT2024</span></p>
                         <div className='social__media'>
                             <a className="media" href='www.facebook.com' target='_blank' rel='noreferrer'><i className='uil uil-facebook-f'></i></a>
                             <a className="media" href='www.twitter.com' target='_blank' rel='noreferrer'><i className="uil uil-twitter"></i></a>
@@ -18,7 +18,7 @@ function footer() {
                         </div>
                     </div>
                     <div className='Information'>
-                        <div className='Information__title'>Information</div>
+                        <div className='Information__title'><b>Info:</b></div>
                         <div className='Information__content'>Call or Email for any conference<br /> related Queries.</div>
                         <div className='Information__content'><b>Email:</b> icdect2024@anits.edu.in</div>
                         <div className='Information__content'><b>Phone:</b> +91 123456789</div>
